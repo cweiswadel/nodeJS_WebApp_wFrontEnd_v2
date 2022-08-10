@@ -1,0 +1,20 @@
+{
+  "name": "standupendpointexamplefe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./src/app.js ./src/GET.js ./src/populateData.js ./src/queryParams.js ./src/executeGET.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "https": "^1.0.0",
+    "url": "^0.11.0"
+  }
+}

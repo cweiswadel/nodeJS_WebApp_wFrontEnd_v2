@@ -1,0 +1,38 @@
+<html id="dataPage">
+
+<head>
+
+</head>
+
+<body>
+    <h1>Data</h1>
+    <a id="linkToIndex" href="./index.html">Click here to go to index page.</a>
+    <br>
+    <br>
+    <input readonly="true" id="curQueryParam"></input>
+    <br>
+    <br>
+    <label >Sort Ascending
+        <input class="paramToggle" id="sortASCToggle" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <label >Sort Descending
+        <input class="paramToggle" id="sortDESCToggle" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <br>
+    <br>
+    <label >Registered YES
+        <input class="paramToggle" id="regToggleYES" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <label >Registered NO
+        <input class="paramToggle" id="regToggleNO" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <p id="getData"></p>
+    <button id="refreshGET">Execute GET</button>
+    <script src="bundle.js" charset="utf-8"></script>
+</body>
+
+</html>
